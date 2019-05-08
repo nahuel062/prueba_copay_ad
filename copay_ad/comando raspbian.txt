@@ -1,0 +1,5 @@
+cada 10 min, en segundo plano:
+*/10 * * * * python /home/check_prueba.py &
+
+para que lo haga cada vez que la raspberry arranque:
+@reboot python /home/check_prueba.py &
